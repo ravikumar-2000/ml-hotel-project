@@ -58,7 +58,7 @@ def train_model():
 
 
 def predict_model():
-    test_data = pd.read_csv(hotel_record_test_file_path)
+    test_data = pd.read_csv(hotel_record_predict_file_path)
     loaded_model = load_model(
         regression_model_path_name, custom_objects=ak.CUSTOM_OBJECTS
     )
