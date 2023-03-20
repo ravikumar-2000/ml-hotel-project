@@ -4,3 +4,4 @@ autokeras
 scikit-learn
 fastapi
 pydantic
+uvicorn
